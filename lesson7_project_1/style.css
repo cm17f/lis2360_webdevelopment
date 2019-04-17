@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* CSS Document created by Christy Chatmon, Spring 2019*/
+
+body {
+	margin:0;
+	padding:0;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 2em;
+	color: #FFFFFF;
+	background-color: #EFF8E7;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+		padding: 0 40px;
+}
+h1 {
+	font-size: 26px;
+	padding: 0 40px;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 3em;
+	background-color: #ADC4D6;
+	text-align: center;
+	margin: 0;
+}
+h2 {
+	font-size: 18px;
+		padding: 0 40px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	text-align: center;
+}
+h3 {
+	font-size: 16px;
+	letter-spacing: 0.5em;
+		padding: 0 40px;
+	font-variant: small-caps;
+	font-style: oblique;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #ADC4D6;
+	text-decoration: underline;
+	font-style: italic;
+	
+}
+a:visited {
+	font-weight: bold;
+	color: #ADC4D6;
+	text-decoration: underline;
+	font-style: italic;
+	
+}
+a:hover {
+	color: #FFFFFF;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #FFFFFF 1px;
+	
+}
+td {
+	padding: 6px;
+	border: solid #FFFFFF 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #ADC4D6;
+	text-align: center;
+	padding: 6px;
+	border: solid #FFFFFF 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #101C28 1px;
+}
+
+img {
+	border: solid #101C28 5px;
+
+}
+
+iframe {
+	border: solid #101C28 1px;
+	padding: 8px;
+	margin: 8px;
+}
+
+	/* DIV STYLES FOR PAGE LAYOUT */
+	#container {
+		width: 900px; 
+		margin: 0 auto;
+		border-style: double;
+		background-color: #222F3F;
+		overflow: hidden;
+		
+		
+	}
+	
+	#header{
+		width: 100%;
+		background-color: #101C28;
+		border-bottom: 1px solid;
+		
+		
+	}
+	
+	#content{
+		width: 600px;
+		float: left;
+	
+		
+	}
+	
+	#sidebar{
+		width: 280px;
+		float: left;
+		margin-top: 50px;
+		margin-right: 20px;
+		background-color: #101C28;
+		border: 1px;
+		border-radius: 12px;
+		box-shadow: 10px 10px 5px #888;
+		
+	}
+	#sidebar p{
+		padding: 10px;
+	 
+	}
+	#footer{
+		width: 100%;
+			background-color: #101C28;
+		border-top: 1px solid;
+		clear: both;
+	}
